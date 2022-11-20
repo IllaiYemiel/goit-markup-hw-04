@@ -48,7 +48,7 @@
     <!--Унікальний контент сторінки Студія-->
     <main>
       <!--Герой-->
-      <section class="hero section">
+      <section class="hero section overlay">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-btn">Замовити послугу</button>
@@ -60,25 +60,25 @@
         <div class="container">
           <h2 hidden>Особливості</h2>
           <ul class="exclusive-list">
-            <li class="exclusive-item">
+            <li class="exclusive-item icon-antenna">
               <h3 class="exclusive-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="exclusive-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
-            <li class="exclusive-item">
+            <li class="exclusive-item icon-clock">
               <h3 class="exclusive-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="exclusive-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
-            <li class="exclusive-item">
+            <li class="exclusive-item icon-diagram">
               <h3 class="exclusive-title">ПЛАНУВАННЯ</h3>
               <p class="exclusive-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="exclusive-item">
+            <li class="exclusive-item icon-astronaut">
               <h3 class="exclusive-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="exclusive-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -166,27 +166,47 @@
           </ul>
         </div>
       </section>
+
+      <!-- Постійні клієнти -->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Постійні клієнти</h2>
+        </div>
+      </section>
     </main>
 
     <!--Футер-->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="footer-logo logo"> <span>Web</span>Studio </a>
-        <address>
-          <ul class="footer-contacts list">
-            <li>
-              <a
-                class="link-address"
-                href="https://goo.gl/maps/hEW1JtFpCVsuVEPR8"
-                target="_blank"
-                rel="noreferrer"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <div class="container container-flex">
+        <div class="address">
+          <a href="./index.html" class="footer-logo logo"> <span>Web</span>Studio </a>
+          <address>
+            <ul class="footer-contacts list">
+              <li>
+                <a
+                  class="link-address"
+                  href="https://goo.gl/maps/hEW1JtFpCVsuVEPR8"
+                  target="_blank"
+                  rel="noreferrer"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="container social">
+          <h2 class="social-title">приєднуйтесь</h2>
+          <ul class="social-list">
+            <li class="social-item icon-instagram"></li>
+            <li class="social-item icon-twitter"></li>
+            <li class="social-item icon-facebook"></li>
+            <li class="social-item icon-linkedin"></li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
