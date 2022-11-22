@@ -132,6 +132,7 @@ color: var(--accent-color);
     margin-left: 50px;
 }
 
+
 .auth-nav .link {
     display: block;
     padding-top: 32px;
@@ -141,10 +142,16 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     text-decoration: none;
+    fill: var(--second-text-color)
 }
 .auth-nav .link:focus,
 .auth-nav .link:hover {
     color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.auth-nav-icon {
+    margin-right: 10px;
 }
 
 /* Герой */
@@ -321,10 +328,79 @@ color: var(--accent-color);
 
 .team-list .text {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: calc(19/16);
     color: var(--second-text-color);
+}
+
+/* Соц. мережі команди */
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    list-style: none;
+}
+
+.team-social-item:hover {
+    fill: var(--third-text-color);
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+
+.team-social-icon:hover {
+    fill: var(--third-text-color);
+}
+
+.team-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    fill: #AFB1B8;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+    fill: var(--third-text-color);
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+
+
+/* Постійні клієнти */
+
+.custumers {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 30px;
+}
+
+.custumers-link {
+    padding: 0;
+}
+
+.custumers-icon {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+}
+
+.custumers-icon:hover,
+.custumers-icon:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 /* Футер */
@@ -396,6 +472,7 @@ color: var(--accent-color);
     margin-bottom: 20px;
     font-size: 14px;
     line-height: calc(16/14);
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-text-color);
 }
