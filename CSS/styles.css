@@ -218,34 +218,14 @@ color: var(--accent-color);
     width: 270px;
 }
 
-.exclusive-item::before{
-    display: block;
-    content: "";
+.exclusive-btn-icon {
     margin-bottom: 30px;
+    width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
+    border: none;
     border-radius: 4px;
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #F5F4FA;
 }
-
-.exclusive-item.icon-antenna::before {
-    background-image: url(../images/icons.svg/antenna\ 1.svg);
-}
-
-.exclusive-item.icon-clock::before {
-    background-image: url(../images/icons.svg/clock\ 1.svg);
-}
-
-.exclusive-item.icon-diagram::before {
-    background-image: url(../images/icons.svg/diagram\ 1.svg);
-}
-
-.exclusive-item.icon-astronaut::before {
-    background-image: url(../images/icons.svg/astronaut\ 1.svg);
-}
-
 
 
 .exclusive-title {
@@ -483,39 +463,22 @@ color: var(--accent-color);
     gap: 10px;
 }
 
-.social-item::before {
-    content: "";
-    display: inline-block;
-    width: 44px;
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     height: 44px;
+    width: 44px;
+    fill: var(--third-text-color);
+    background-color: #44454E;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.social-item:hover::before {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--accent-color);
+    border-radius: 50%;
 }
-
-.social-item.icon-instagram::before {
-    background-image: url(../images/icons.svg/instagram\ 2.svg);
-}
-
-.social-item.icon-twitter::before {
-    background-image: url(../images/icons.svg/twitter\ 1.svg);
-}
-
-.social-item.icon-facebook::before {
-    background-image: url(../images/icons.svg/facebook\ 1.svg);
-}
-
-.social-item.icon-linkedin::before {
-    background-image: url(../images/icons.svg/linkedin\ 1.svg);
-}
-
-
 
 /* Портфоліо */
 
