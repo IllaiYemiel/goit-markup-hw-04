@@ -218,7 +218,10 @@ color: var(--accent-color);
     width: 270px;
 }
 
-.exclusive-btn-icon {
+.container-exclusive-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
